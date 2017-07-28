@@ -1,0 +1,449 @@
+/* line 20, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.ital {
+  font-style: italic;
+}
+
+/* line 24, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 28, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+li {
+  list-style: none;
+}
+
+/* line 32, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#header-image {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 584px;
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* line 40, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#header-image img {
+  position: absolute;
+  bottom: 0px;
+  overflow: hidden;
+}
+
+/* line 47, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#header-container {
+  margin-top: 150px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 0px 50px #000;
+}
+
+/* line 52, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#header-container #name {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 72px;
+}
+
+/* line 58, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#header-container #tagline {
+  font-family: "Caveat", cursive;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* line 62, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#header-container #tagline .pls {
+  color: #33cc33;
+}
+
+/* line 66, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#header-container #pronouns {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+/* line 74, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#nav-bar {
+  width: 100%;
+  overflow: hidden;
+  left: 0px;
+  text-align: center;
+  padding: 10px 0px;
+  position: absolute;
+  top: 500px;
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  margin: 0px;
+}
+
+/* line 87, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+li.nav-item {
+  display: inline-block;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #000;
+  text-align: center;
+  padding: 10px 50px;
+  text-shadow: none;
+}
+
+/* line 97, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+li.nav-item a:hover {
+  color: #33cc33;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 101, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+li.nav-item a {
+  color: #000;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 107, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#resurface {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 115, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#resurface #arrow {
+  border-top: 5px solid #fff;
+  border-left: 5px solid #fff;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  position: relative;
+  top: 22px;
+}
+
+/* line 130, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#resurface:hover {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #000;
+}
+
+/* line 135, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.nav-top {
+  position: fixed !important;
+  top: 0px !important;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-bottom: 3px solid #000;
+  border-top: none !important;
+  padding: 5px 0px !important;
+  box-shadow: 0px 5px 50px -7px #000;
+}
+
+/* line 144, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.nav-top li.nav-item {
+  font-size: 18px;
+}
+
+/* line 149, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.nav-active {
+  color: #33cc33 !important;
+}
+
+/* line 153, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#body-container {
+  width: 720px;
+  position: absolute;
+  top: 620px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  left: calc(50% - 360px);
+  font-size: 16px;
+}
+
+/* line 160, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#body-container a {
+  color: #33cc33;
+  font-weight: 500;
+}
+
+/* line 166, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.section-container {
+  margin-bottom: 60px;
+}
+
+/* line 168, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.section-container ul {
+  padding-left: 20px;
+}
+
+/* line 173, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#about-photo-container {
+  float: right;
+  position: relative;
+  width: 50%;
+  margin: 10px -5px 7px 20px;
+}
+
+/* line 178, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#about-photo-container img {
+  width: 100%;
+}
+
+/* line 181, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#about-photo-container #about-caption {
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: -3px;
+}
+
+/* line 189, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.section-container {
+  text-align: justify;
+}
+
+/* line 193, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#about-wrapper {
+  text-align: justify;
+}
+
+/* line 195, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#about-wrapper #about-intro {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* line 200, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#about-wrapper #tldr {
+  text-align: center;
+  width: 500px;
+  font-weight: 500;
+  margin-left: 110px;
+}
+
+/* line 205, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#about-wrapper #tldr .pls {
+  color: #33cc33;
+  font-weight: 700;
+}
+
+/* line 212, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.h1 {
+  text-align: center;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 10px 0px;
+  background-color: #000;
+  margin-bottom: 10px;
+  margin-left: -50px;
+  width: 820px;
+  overflow: visible;
+}
+
+/* line 227, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.h2 {
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* line 235, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.h3 {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: right;
+  display: inline-block;
+}
+
+/* line 242, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.h4 {
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* line 248, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.date {
+  font-style: italic;
+}
+
+/* line 252, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+span.ris {
+  font-weight: 500;
+}
+
+/* line 258, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.resume-entry-wrapper, .exp-entry-wrapper {
+  margin-bottom: 15px;
+}
+
+/* line 262, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.resume-basics, .exp-basics {
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+  width: 90px;
+}
+
+/* line 270, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.resume-details, .exp-details {
+  display: inline-block;
+  margin: 0px;
+  width: 604px;
+  text-align: justify;
+}
+
+/* line 275, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.resume-details li, .exp-details li {
+  margin-bottom: 5px;
+}
+
+/* line 280, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.exp-basics {
+  width: 215px;
+}
+
+/* line 285, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.exp-details {
+  width: 478px;
+}
+
+/* line 294, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#note {
+  font-style: italic;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* line 300, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#skillsponge {
+  width: 720px;
+}
+
+/* line 304, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.text {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/* line 310, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.pf-entry {
+  margin-bottom: 20px;
+}
+
+/* line 312, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.pf-entry #ccsd {
+  height: 420px;
+}
+
+/* line 315, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.pf-entry #seeds {
+  height: 555px;
+  overflow: hidden;
+}
+
+/* line 321, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.pf-img, .pf-img .fill, .pf-img .split {
+  display: inline-block;
+  vertical-align: top;
+  width: 450px;
+  overflow: hidden;
+  background-color: #33cc33;
+}
+
+/* line 327, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.pf-img .fill, .pf-img .split {
+  background-color: none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 332, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.pf-img .fill:hover, .pf-img .split:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 337, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.pf-img .split {
+  width: 215px;
+}
+
+/* line 344, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.pf-img #split-1 {
+  margin-right: 8px;
+  width: 223px;
+}
+
+/* line 351, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#imdb1, #imdb2 {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  background-color: #33cc33;
+  width: 223px;
+  margin-right: 8px;
+  height: 380px;
+}
+
+/* line 361, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#imdb2 {
+  width: 215px;
+}
+
+/* line 367, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+.pf-text-wrap {
+  display: inline-block;
+  margin-left: 20px;
+  width: 236px;
+  text-align: left;
+}
+
+/* line 374, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+span.small-date {
+  font-size: 14px;
+  padding-left: 1px;
+}
+
+/* line 379, /Users/Andrea/Desktop/DesignAction_Application/assets/scss/style.scss */
+#email {
+  color: #33cc33;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=../css/style.map */

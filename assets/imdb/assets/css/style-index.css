@@ -1,0 +1,1026 @@
+body {
+    background-color: #000;
+}
+
+.img-scaled {
+    width:100%;
+}
+
+/* BEGIN CSS FOR TOPBAR */
+
+#topbar {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#topbar:hover {
+    background-color: #000;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#logo {
+    font-family: "Alegreya Sans";
+    font-size: 26px;
+    background-color: #ffe437;
+    height: 40px;
+    width: 75px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 900;
+    padding-top: 9px;
+    display: inline-block;
+    margin-top: 12.5px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+#search-bar {
+    height: 20px;
+    width: 400px;
+    background-color: rgba(255, 243, 168, 1);
+    border-radius: 12px;
+    padding-left: 10px;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 25px;
+    left: 100px;
+    padding-top: 2px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#search-bar:hover {
+    background-color: #ffe437;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#search-logo {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    float: right;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.topbar-menu-item {
+    font-family: "Alegreya Sans";
+    float: right;
+    margin-right: 40px;
+    margin-top: 27px;
+}
+
+.topbar-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+.topbar-link:hover {
+    color: #fff;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+/* END CSS FOR TOPBAR */
+
+/* BEGIN CSS FOR FEATURED BANNER */
+
+#featured-banner {
+    height: 500px;
+    position: absolute;
+    top: 70px;
+    overflow: hidden;
+    font-family: "Alegreya Sans";
+}
+
+#featured-banner .img-scaled {
+    opacity: 0.8;
+}
+
+#featured-container {
+    position: absolute;
+    top: calc(50% - 341px/2);
+    color: #fff;
+    width: 470px;
+    margin-left: 40px;
+    text-shadow: 0px 0px 50px #000;
+}
+#featured-header {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+#featured-title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+#featured-title-link {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#featured-title-link:hover {
+    color: #ffe437;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#featured-description {
+    font-size: 18;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.featured-actor {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.featured-actor:hover {
+    color: #ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#featured-date {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 8px;
+    opacity: 0.5;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.dot:hover {
+    opacity: 1;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#dot-container {
+    position: absolute;
+    bottom: 20px;
+    margin: 0px calc(50% - 99px/2);
+    text-align: center;
+}
+
+.dot#yellow {
+    background-color: #ffe437;
+    opacity: 0.5;
+}
+
+.dot#yellow:hover {
+    opacity: 1;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#play-button {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    opacity: .5;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#play-button:hover {
+    opacity: .75;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+/* END CSS FOR FEATURED TRAILERS HEADER */
+
+/* BEGIN CSS FOR CENTERED CONTENT */
+
+ {
+    width: 1200px;
+    position: relative;
+    top: 570px;
+    margin: 30px auto;
+    font-family: "Alegreya Sans";
+}
+ {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    display: inline-block;
+    float: left;
+}
+#box-office-container {
+    width: 320px;
+    height: 835px;
+    font-family: "Alegreya Sans";
+    position: absolute;
+    display: inline-block;
+}
+.index-header-option {
+    text-decoration: none;
+    color: #ffe437;
+    font-size: 30px;
+    font-weight: 400;
+    float: right;
+    /* margin-bottom: 20px; */
+    font-family: "Alegreya Sans";
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.index-header-option:hover {
+    font-weight:300;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.box-office-card {
+    margin-top: 30px;
+    position: absolute;
+    top: 36px;
+    display: inline-block;
+    width: 100%;
+}
+.box-office-thumbnail {
+    width: 100px;
+    
+    height: 147px;
+    border-radius: 6px;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    /* position: absolute; */
+}
+
+.box-office-title {
+    color: #fff;
+    display: inline;
+    position: absolute;
+    float: right;
+    width: 170px;
+    font-size: 24px;
+}
+.star {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.star-container {
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    width: 100px;
+    height: 10px;
+}
+.box-office-reviews {
+    position: absolute;
+    display: inline-block;
+    top: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    width: 100px;
+}
+
+.box-office-reviews-link {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.box-office-reviews-link:hover {
+    color: #ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.box-office-synopsis {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1;
+    top: 70px;
+    width: 200;
+}
+.box-office-rank-container {
+    width: 50px;
+    color: #fff;
+    position: absolute;
+    display: inline-block;
+    text-align: right;
+    right: 0;
+    top: -25px;
+}
+.box-office-rank {
+    font-size: 72px;
+    margin-bottom: -14px;
+}
+.box-office-earnings {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#main-container {
+    position: relative;
+    top: 570px;
+    width: 1115px;
+    margin: 50px auto;
+    height: 1300px;
+}
+.index-header {
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    float: left;
+    margin-bottom: 20px;
+    font-family: "Alegreya Sans";
+}
+
+#box-2 {
+    top: 203px;
+}
+
+#box-3 {
+    top: 370px;
+}
+
+#box-4 {
+    top: 537px;
+}
+
+#box-5 {
+    top: 704px;
+}
+
+.box-thumb-overlay {
+    position: absolute;
+    z-index: 99;
+    color: #ffe437;
+    display: inline-block;
+    top: calc(50% - 147px/2);
+    width: 100px;
+    text-align: center;
+    font-weight: 400;
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    background-color: #000;
+    overflow: hidden;
+    padding: 45px 0px;
+}
+
+.box-thumb-overlay-link {
+    text-decoration: none;
+    color:#ffe437;
+}
+
+.box-office-mid-container {
+    position: absolute;
+    display: inline-block;
+    left: 100px;
+    margin-left: 15px;
+}
+.box-thumb-overlay:hover {
+    opacity: .6;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+/* END CSS FOR BOX OFFICE SECTION */
+
+/* BEGIN CSS FOR COMING SOON SECTION */
+
+#coming-soon-container {
+    /* position: absolute; */
+    display: inline-block;
+    float: right;
+    /* width: 780px; */
+    left: 360px;
+    font-family: "Alegreya Sans";
+    width: 715px;
+}
+
+.subheader-container {
+    position: absolute;
+    width: 715px;
+    top: 45px;
+}
+
+.index-subheader {
+    font-family: "Alegreya Sans";
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    font-size: 24px;
+}
+.index-subheader-option {
+    font-family: "Alegreya Sans";
+    font-size: 24px;
+    font-weight: 400;
+    float: right;
+    text-align: right;
+    text-decoration: none;
+    color: #ffe437;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    font-family: "Alegreya Sans";
+    z-index: 99;
+}
+
+.index-subheader-option:hover {
+    font-weight: 400;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.coming-soon-card {
+    width: 100px;
+    display: inline-block;
+    /* position: absolute; */
+    /* top: 80px; */
+    margin-right: 20px;
+    margin-top: 85px;
+}
+.coming-soon-thumbnail {
+    width: 100px;
+    border-radius: 6px;
+    overflow: hidden;
+    max-height: 147px;
+}
+.coming-soon-title {
+    color: #fff;
+    margin: 10px 0px;
+}
+
+.soon-thumb-overlay {
+    position: absolute;
+    z-index: 99;
+    color: #ffe437;
+    display: inline-block;
+    top: 104px;
+    width: 100px;
+    text-align: center;
+    font-weight: 400;
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    background-color: #000;
+    max-height: 148px;
+    overflow: hidden;
+    padding-top: 45px;
+    padding-bottom: 46px;
+}
+
+#soon-thumb-3 {
+    top: 0px;
+}
+
+.soon-thumb-overlay-link {
+    text-decoration: none;
+    color:#ffe437;
+}
+
+.soon-thumb-overlay:hover {
+    opacity: .6;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#soon-6 {
+    width: 100px;
+    margin-right: 0px;
+}
+
+#soon-row1 #soon-3 {
+    position: relative;
+    top: 20px;
+}
+
+
+#soon-row2 .subheader-container {
+    top: 310px;
+}
+
+#soon-row2 .soon-thumb-overlay {
+    margin-top: 246px;
+}
+
+#soon-row2 {
+    margin-top: -25px;
+}
+
+
+/* END CSS FOR COMING SOON SECTION */
+
+/* BEGIN CSS FOR TV RECAPS SECTION */
+
+#tv-recaps-container {
+    /* position: absolute; */
+    display: inline-block;
+    float: right;
+    width: 715px;
+    left: 360px;
+    font-family: "Alegreya Sans";
+    margin-top: 35px;
+}
+
+#recaps-header-container {
+    width: 715px;
+
+    height: 36px;
+    margin-bottom: 20px;
+}
+
+#recaps-subheader-container {
+    /* position: absolute; */
+    width: 715px;
+    /* top: 40px; */
+    height: 30px;
+    display: inline-block;
+}
+
+.index-subheader {
+    font-family: "Alegreya Sans";
+    color: rgba(255, 255, 255, 0.5);
+    /* position: absolute; */
+    font-size: 24px;
+}
+
+.recaps-card {
+    width: 100px;
+    /* display: inline-block; */
+    position: absolute;
+    /* top: 80px; */
+    /* margin-right: 20px; */
+}
+.recaps-thumbnail {
+    width: 100px;
+    border-radius: 6px;
+    overflow: hidden;
+    max-height: 147px;
+    /* margin-top: 20px; */
+    height: 147px;
+    top: 0px;
+}
+.recaps-title {
+    color: #fff;
+    margin: 10px 0px 5px;
+}
+
+.recaps-thumb-overlay {
+    position: absolute;
+    z-index: 99;
+    color: #ffe437;
+    display: inline-block;
+    top: 0px;
+    width: 100px;
+    text-align: center;
+    font-weight: 400;
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    background-color: #000;
+    max-height: 148px;
+    overflow: hidden;
+    padding: 64px 0px;
+}
+
+.recaps-thumb-overlay-link {
+    text-decoration: none;
+    color:#ffe437;
+}
+
+.recaps-thumb-overlay:hover {
+    opacity: .6;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+.recaps-episode {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    line-height: 1;
+} 
+
+#recaps2 {
+    left: 524px;}
+
+#recaps2 .img-scaled {
+    width: 100%;
+    height: 100%;
+}
+    
+#recaps3 {
+    left: 646px;
+}
+
+.recaps-card .img-scaled {
+    width: 100%;
+    height: 100%;
+}
+#recaps4 {
+    left: 769px;
+}
+#recaps5 {
+    left: 892px;
+}
+#recaps6 {
+    left: 1014px;
+}
+
+#recaps-subheader-container .index-subheader {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+    top: -10px;
+}
+
+/* END CSS FOR TV RECAPS SECTION */
+
+/* BEGIN CSS FOR NEWS SECTION */
+
+.news-container {
+    width: 100%;
+    position: absolute;
+    top: 918px;
+    height: 400px;
+}
+
+#news-header-container {
+    width: 100%;
+    position: absolute;
+    height: 36px;
+}
+#news-options-container {
+    position: absolute;
+    width: 100%;
+}
+.news-option {
+    display: inline-block;
+    float: right;
+    font-family: "Alegreya Sans";
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-weight: 400;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.news-option-bar {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0px 20px;
+    float: right;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    font-size: 24px;
+}
+#news-option-selected .news-option {
+    font-weight: 400;
+}
+.news-option:hover {
+    color: #ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#news-subheader-container {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 55px;
+}
+
+#featured-story-thumb {
+    width: 172px;
+    border-radius: 12px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 30px;
+    /* height: 255px; */
+}
+
+#featured-story-container {
+    width: 580px;
+    position: absolute;
+    top: 100px;
+}
+#featured-story-info-container {
+    width: 356px;
+    font-family: "Alegreya Sans";
+    display: inline-block;
+    position: relative;
+    top: -5;
+}
+#featured-story-title {
+    color: #fff;
+    font-size: 30px;
+    /* line-height: 1; */
+    margin-bottom: 30px;
+}
+#featured-story-description {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+    width: 350px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.featured-description-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 2px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.featured-description-link:hover {
+    color: #ffe437;
+    transition: 0.3s;
+}
+
+#featured-option-link {
+    color: #ffe437;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.news-thumb {
+    height: 140px;
+    width: 120px;
+    border-radius: 6px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+#news-card-container {
+    /* position: absolute; */
+    float: right;
+    margin-right: -15px;
+}
+.news-info-container {
+    width: 136px;
+    font-family: "Alegreya Sans";
+}
+.news-card {
+    display: inline-block;
+    float: right;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.news-caption {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+    font-size: 14;
+    margin-bottom: 20px;
+    position: relative;
+}
+.news-caption-link {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 3px;
+    padding-right: 2px;
+    font-weight: 400;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.news-caption-link:hover {
+    color: #ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#lottery {
+    margin-top: -7px;
+}
+
+.news-option-link {
+    text-decoration: none;
+    color: #ffe437;
+    font-weight: 400;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.news-caption-option {
+    position: absolute;
+    bottom: 45;
+}
+
+/* END CSS FOR NEWS SECTION */
+
+/* BEGIN CSS FOR FOOTER */
+
+#footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    left: 0;
+    font-family: "Alegreya Sans";
+    top: 1985px;
+}
+
+#footer-content {
+    height: 300px;
+    position: absolute;
+    margin: 0px calc(50% - 575px);
+    width: 1150;
+}
+
+.footer-block {
+    display: inline-block;
+    float: left;
+    width: 300px;
+}
+
+.footer-heading {
+    font-weight: 400;
+    color: #ffe437;
+    font-size: 20px;
+    padding: 20px 0px 10px;
+}
+.footer-item {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#footer-navigation-1 {
+    display: inline-block;
+    width: 110px;
+}
+
+#footer-navigation-2 {
+    display: inline-block;
+    width: 130px;
+}
+
+.footer-item-link {
+    text-decoration:none;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.footer-item-link:hover {
+    color: #ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#footer-see-all-recent {
+    text-decoration: none;
+    color: #ffe437;
+    font-weight: 400;
+}
+
+#footer-see-all {
+    margin-top: 10px;
+}
+
+.tweet-text {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+}
+
+.tweet-timestamp {
+    color: rgba(255, 255, 255, 0.75);
+    text-align: right;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.tweet-timestamp:hover {
+    color:#ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.connect-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-right: 20px;
+    opacity: 0.8;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.connect-icon:hover {
+    opacity: 1;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#copyright {
+    width: 250px;
+    text-align: right;
+}
+.footer-copyright-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.footer-copyright-item {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+}
+
+#footer-copyright-info {
+    margin-bottom: 15px;
+}
+.footer-copyright-link:hover {
+    color: #ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+

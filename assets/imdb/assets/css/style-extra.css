@@ -1,0 +1,893 @@
+body {
+    background-color: #000;
+}
+
+.img-scaled {
+    width:100%;
+}
+
+/* BEGIN CSS FOR TOPBAR */
+
+#topbar {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#topbar:hover {
+    background-color: #000;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#logo {
+    font-family: "Alegreya Sans";
+    font-size: 26px;
+    background-color: #ffe437;
+    height: 40px;
+    width: 75px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 900;
+    padding-top: 9px;
+    display: inline-block;
+    margin-top: 12.5px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+#search-bar {
+    height: 20px;
+    width: 400px;
+    background-color: rgba(255, 243, 168, 1);
+    border-radius: 12px;
+    padding-left: 10px;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 25px;
+    left: 100px;
+    padding-top: 2px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#search-bar:hover {
+    background-color: #ffe437;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+#search-logo {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    float: right;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.topbar-menu-item {
+    font-family: "Alegreya Sans";
+    float: right;
+    margin-right: 40px;
+    margin-top: 27px;
+}
+
+.topbar-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+.topbar-link:hover {
+    color: #fff;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+/* END CSS FOR TOPBAR */
+
+/* BEGIN CSS FOR BANNER */
+
+#movie-banner {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 70px;
+    overflow: hidden;
+}
+
+#maleficent-banner-adjust {
+    position: relative;
+    top: -156px;
+}
+
+/* END CSS FOR BANNER*/
+
+#main-container {
+    position: absolute;
+    top: 570px;
+    margin: 50px calc(50% - 1115px/2);
+    width: 1115px;
+}
+
+/* BEGIN CSS FOR ROW 1 */
+
+#poster-thumb {
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+#main-container {
+    position: absolute;
+    top: 570px;
+    margin: 50px calc(50% - 1115px/2);
+    width: 1115px;
+    font-family: "Alegreya Sans";
+    height: 2000px;
+}
+#poster-thumb {
+    width: 257px;
+    border-radius: 12px;
+    overflow: hidden;
+    display: inline-block;
+}
+#row-1-container {
+    width: 100%;
+    position: absolute;
+}
+#movie-info-container {
+    display: inline-block;
+    position: absolute;
+    margin-left: 50px;
+}
+#star-container .img-scaled {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-left: -1.5px; 
+}
+#movie-title {
+    color: #fff;
+    display: inline-block;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#movie-year {
+    display: inline-block;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 10px;
+    font-weight: 400;
+    position: relative;
+    top: -2px;
+}
+
+#movie-stats {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#movie-stats p {
+    margin: 0px;}
+#movie-reviews-container {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    float: right;
+    text-align: right;
+    font-weight: 400;
+    font-size: 14px;
+    position: relative;
+    top: 10px
+}
+#star-container {
+    display: inline-block;
+    position: relative;
+    top: -0.5px;
+    margin-left: 4px;
+}
+.highlight {
+    text-decoration: none;
+    color: #ffe437;
+}
+
+#number-rating .highlight {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#your-rating .highlight {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -.5px
+}
+#user-reviews .highlight {
+    font-size: 18px;
+    font-weight: 500;
+}
+#critic-reviews .highlight {
+    font-size: 18px;
+    font-weight: 500;
+}
+#award-wins .highlight {
+    font-size: 18px;
+    font-weight: 500;
+}
+#award-nominations .highlight {
+    font-size: 18px;
+    font-weight: 500;
+}
+#number-rating {
+    margin-bottom: 5px;
+}
+
+#movie-synopsis {
+    color: #fff;
+    font-size: 28px;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#movie-credits {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#movie-credits p {
+    margin: 0;
+}
+.movie-credits-link {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+    margin-left: 2px;
+    text-decoration: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.movie-credits-link:hover {
+    color: #ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#row1-option {
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#row1-option:hover {
+    transition: 0.3s;
+    font-weight: 500;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.movie-stats-option {
+    text-decoration: none;
+    color: #ffe437;
+    margin-left: 30px;
+    font-weight: 400;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.movie-stats-option:hover {
+    font-weight: 500;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.movie-option {
+    text-decoration: none;
+    color: #ffe437;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.movie-option:hover {
+    font-weight: 500;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.movie-option-bar {
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin: 0px 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* END CSS FOR ROW 1 */
+
+/* BEGIN CSS FOR ROW 2 */
+
+#row-2-container {
+    width: 100%;
+    position: absolute;
+    top: 420px;
+}
+.movie-subheader {
+    color: #fff;
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+#movie-subheader-container {
+    position: relative;
+}
+.movie-subheader-option {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffe437;
+    font-weight: 400;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    font-size: 24px;
+    float: right;
+    position: relative;
+    top: 2px;
+}
+
+.movie-subheader-option:hover {
+    font-weight: 500;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.movie-subheader-option-bar {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0px 5px;
+    font-weight: 400;
+    float: right;
+}
+#movie-subheader-option-container {
+    display: inline-block;
+    float: right;
+    font-size: 24px;
+    position: relative;
+}
+#storyline-container {
+    width: 800px;
+    display: inline-block;
+}
+#storyline {
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#quick-links-container {
+    display: inline-block;
+    float: right;
+    width: 258px;
+}
+.quick-links-container {
+    width: 123px;
+    display: inline-block;
+    line-height: 2;
+}
+.quick-links-item {
+    text-decoration: none;
+    color: #ffe437;
+    font-weight: 400;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.quick-links-item:hover {
+    font-weight: 500;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#quick-links-1 {
+    width: 125px;
+}
+
+#quick-links-2 {
+    margin-left: 20px;
+    width: 105px;
+}
+
+/* END CSS FOR ROW 2 */
+
+/* BEGIN CSS FOR COLUMN 1 */
+
+.cast-thumb {
+    width: 122px;
+    border-radius: 6px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#column-1-container {
+    width: 50%;
+    position: absolute;
+    top: 680px;
+}
+.cast-name + .cast-character {
+    display: inline-block;
+}
+.cast-name {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.cast-character {
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 20px;
+}
+.cast-card {
+    /* width: 150px; */
+    display: inline-block;
+    margin-right: 20px;
+}
+#cast-row-1 {
+    width: 100%;
+}
+.cast-card:last-child {
+    margin-right: 0px;
+}
+
+.details-category {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    margin-right: 5px;
+}
+.details-item {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+}
+.details-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.details-link:hover {
+    color: #ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#rating {
+    width: 332px;
+    display: inline-block;
+    position: relative;
+}
+
+.details-bar {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    margin: 0px 3px;
+}
+#details-container {
+    position: relative;
+    top: 30px;
+    width: 100%;
+}
+.details-line {
+    margin-bottom: 8px;
+}
+
+.movie-stats-option {
+    float: right;
+}
+
+#rating-line {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+#rating-line span.movie-stats-option {
+    margin: 0px;
+}
+#rating-line .details-category {
+    top: -19px;
+    position: relative;
+}
+
+/* END CSS FOR COLUMN 1 */
+
+/* BEGIN CSS FOR COLUMN 2 */
+
+#column-2-container {
+    width: 45%;
+    position: relative;
+    top: 680px;
+    float: right;
+}
+#videos-row-1 {
+    width: 100%;
+}
+.videos-thumb {
+    width: 100%;
+    display: inline-block;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 130px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.video-adjust {
+    width: 143%;
+    position: relative;
+    top: -32px;
+    left: -52px;
+}
+
+#last {
+    width: 157%;
+    top: -34px;
+    left: -75px;
+}
+
+.videos-card {
+    display: inline-block;
+    width: 239px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+#videos-container {
+    color: #FFF;
+}
+.video-info {
+    display: inline-block;
+    width: 100%;
+}
+.videos-card:last-child {
+    margin-right: 0px;
+}
+.video-time {
+    float: right;
+}
+.play-button {
+    position: absolute;
+    z-index: 888;
+    width: 50px;
+    height: 50px;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    opacity: .5;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+.play-button:hover {
+    opacity: .75;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+
+.photos-thumb {
+    width: 239px;
+    display: inline-block;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 130px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-right: 20px;
+}
+#photo-adjust-2 {
+    width: 100%;
+}
+#photo-adjust-1 {
+    width: 107%;
+}
+
+
+#photo-adjust-3 {
+    width: 100%;
+}
+#photo-adjust-4 {
+    width: 100%;
+    position: absolute;
+    top: -10px;
+}
+#photos-container {
+    position: relative;
+    top: 30px;
+}
+
+.photos-thumb:last-child {
+    margin-right: 0px;
+}
+
+/* END CSS FOR COLUMN 2 */
+
+/* BEGIN CSS FOR RECOMMENDED SECTION */
+
+#recommended-container {
+    position: absolute;
+    top: 1520px;
+    width: 100%;
+}
+.recommended-card {
+    width: calc(1055px/3);
+    display: inline-block;
+}
+.recommended-thumb {
+    width: 130px;
+    display: inline-block;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.recommended-info-container {
+    display: inline-block;
+    width: 198px;
+    position: absolute;
+    height: 193px;
+}
+
+.recommended-synopsis {
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 10px;
+    font-weight: 400;
+}
+.recommended-credits {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.recommended-credits:hover {
+    color: #ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.recommended-title {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.recommended-title:hover {
+    color: #ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.recommended-stats-container {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+.recommended-stars {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.recommended-option-bar {
+    margin: 0px 3px;
+}
+.recommended-option {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffe437;
+    font-weight: 400;
+}
+.recommended-option-bar {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+}
+.recommended-year {
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 7px;
+    font-size:18px;
+    position: relative;
+    top: -1px
+}
+
+.recommended-option-container {
+    position: absolute;
+    bottom: 0px;
+}
+
+#middle {
+    margin: 0px 27px;
+}
+
+/* BEGIN CSS FOR FOOTER */
+
+#footer {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    left: 0;
+    font-family: "Alegreya Sans";
+    top: 2550px;
+}
+
+#footer-content {
+    height: 300px;
+    position: absolute;
+    margin: 0px calc(50% - 575px);
+    width: 1150;
+}
+
+.footer-block {
+    display: inline-block;
+    float: left;
+    width: 300px;
+}
+
+.footer-heading {
+    font-weight: 400;
+    color: #ffe437;
+    font-size: 20px;
+    padding: 20px 0px 10px;
+}
+.footer-item {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#footer-navigation-1 {
+    display: inline-block;
+    width: 110px;
+}
+
+#footer-navigation-2 {
+    display: inline-block;
+    width: 130px;
+}
+
+.footer-item-link {
+    text-decoration:none;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.footer-item-link:hover {
+    color: #ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#footer-see-all-recent {
+    text-decoration: none;
+    color: #ffe437;
+    font-weight: 400;
+}
+
+#footer-see-all {
+    margin-top: 10px;
+}
+
+.tweet-text {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+}
+
+.tweet-timestamp {
+    color: rgba(255, 255, 255, 0.75);
+    text-align: right;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.tweet-timestamp:hover {
+    color:#ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.connect-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-right: 20px;
+    opacity: 0.8;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.connect-icon:hover {
+    opacity: 1;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+#copyright {
+    width: 250px;
+    text-align: right;
+}
+.footer-copyright-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.footer-copyright-item {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+}
+
+#footer-copyright-info {
+    margin-bottom: 15px;
+}
+.footer-copyright-link:hover {
+    color: #ffe437;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
